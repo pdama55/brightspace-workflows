@@ -1,0 +1,24 @@
+# Secrets — .env holds the Brightspace session cookie and calendar feed token
+.env
+.env.local
+
+# Personal course data (yours, and your instructors' materials)
+syllabi/
+schedules/*.json
+.feed_cache/
+*.ics
+
+# Runtime state
+.state.json
+.state*.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# macOS
+.DS_Store
+*\ 2.json
